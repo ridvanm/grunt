@@ -1,0 +1,24 @@
+https://gruntjs.com/getting-started
+
+how to start with gruntjs
+install node.js
+npm install -g grunt-cli
+create a package.json file(npm init -y)
+install grunt locally(npm install grunt --save-dev)
+create a gruntfile.js(touch Gruntfile.js)
+#install plugins
+npm install grunt-contrib-concat --save-dev
+grunt.loadNpmTasks('grunt-contrib-concat');
+to run just write this : grunt concat-js ( remember i can call what ever i want on register task the concat-js)
+//npm i grunt-contrib-sass --save-dev
+//npm i node-sass --save-dev
+npm i node-sass --save-dev
+npm install --save-dev grunt-sass
+to convert the sass to css  the command to run is :  
+grunt sass
+npm install grunt-contrib-cssmin --save-dev
+
+
+##################
+grunt sass
+grunt cssminRun
